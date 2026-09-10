@@ -89,6 +89,10 @@
 4. `simpson_n_divisions_function.m`
 5. `integration_comparison.m`
 
+6. `simpson_n_divisions_script_v2.m`
+7. `simpson_n_divisions_function_v2.m`
+8. `integration_comparison_v2.m`
+
 ### problem 1 - numerical differentiation for first derivatives
 
 1. `num_diff_first_deriv_script.m`
