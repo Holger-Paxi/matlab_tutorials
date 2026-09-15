@@ -100,7 +100,6 @@
 6. `simpson_n_divisions_function.m`
 7. `integration_comparison_notebook.mlx`
 8. `integration_comparison.m`
-
 9. `simpson_n_divisions_notebook_v2.mlx`
 10. `simpson_n_divisions_script_v2.m`
 11. `simpson_n_divisions_function_v2.m`
@@ -151,7 +150,6 @@
 10. `computations_multiple_n_entries_script.m`
 11. `computations_multiple_n_func_entries_notebook.mlx`
 12. `computations_multiple_n_func_entries_script.m`
-
 13. `simpson_rule_notebook_v2.mlx`
 14. `simpson_rule_script_v2.m`
 15. `simpson_rule_function_v2.m`
@@ -173,7 +171,6 @@
 3. `composite_simpson_function.m`
 4. `compute_simp_mult_dx_notebook.mlx`
 5. `compute_simp_mult_dx_script.m`
-
 6. `comparison_simp_trap_mult_dx_notebook.mlx`
 7. `comparison_simp_trap_mult_dx_script.m`
 
