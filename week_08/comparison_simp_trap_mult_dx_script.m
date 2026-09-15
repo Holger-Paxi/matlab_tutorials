@@ -1,0 +1,43 @@
+%% 
+% inputs
+
+% dx_vect = [0.25, 0.1, 0.05];
+dx_vect = 0.05:0.05:1;
+x_a = 1;
+x_b = 3;
+
+func = @(x) exp(x).*(sin(x).^2);
+%% 
+% calculations
+
+% variable to store the results
+results = {};
+for dx = dx_vect
+    trap = composite_trapezoidal_function(...
+        dx, x_a, x_b, func...
+    );
+    simp = composite_simpson_function(...
+        dx, x_a, x_b, func...
+    );
+    % save results into variable
+    results{end+1} = innerjoin(...
+        trap, simp, ...
+        "Keys", [...
+            "x_a", "x_b", "n", "h", "dx", "true_value"...
+        ] ...
+    );
+end
+%% 
+% merge results
+
+results = vertcat(results{:});
+%% 
+% reordering columns
+
+results = results(:, [...
+    "x_a", "x_b", "n", "h", "dx", ...
+    "true_value", "integ_trap", "integ_simp", ...
+    "rel_error_trap", "rel_error_simp" ...
+]);
+%%
+disp(results);
