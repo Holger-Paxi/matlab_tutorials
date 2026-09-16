@@ -31,6 +31,20 @@
 
 ----
 
+# Workflow
+
+Notebook (.mlx)
+    ↓
+Script (.m)
+    ↓
+Function (.m)
+    ↓
+Notebook (.mlx) using function
+    ↓
+Script (.m) for batch calculations
+
+---
+
 # Week 06 - Tutorial:
 
 ## suggested order of execution
