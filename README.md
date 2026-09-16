@@ -45,9 +45,6 @@ Notebook (.mlx) using function
 Script (.m) for batch calculations
 ```
 
-
-```
-```
 ---
 
 # Week 06 - Tutorial:
