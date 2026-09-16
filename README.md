@@ -42,7 +42,7 @@
 
 ### exercise A&B - if statements
 
-1. `if_statement_exercise_A_notebook.mlx`
+1. [`if_statement_exercise_A_notebook.mlx`](week_06/if_statement_exercise_A_notebook.mlx)
 2. `if_statement_exercise_A.m`
 3. `if_statement_exercise_B_notebook.mlx`
 4. `if_statement_exercise_B.m`
