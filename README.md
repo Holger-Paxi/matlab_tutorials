@@ -31,8 +31,10 @@
 
 ----
 
-# Workflow
+# recommended workflow
 
+```
+```
 Notebook (.mlx)
     ↓
 Script (.m)
@@ -42,6 +44,8 @@ Function (.m)
 Notebook (.mlx) using function
     ↓
 Script (.m) for batch calculations
+```
+```
 
 ---
 
