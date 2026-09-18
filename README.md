@@ -127,8 +127,8 @@ Script (.m) for batch calculations
 1. [`num_diff_first_deriv_notebook.mlx`](week_07/num_diff_first_deriv_notebook.mlx)
 2. [`num_diff_first_deriv_script.m`](week_07/num_diff_first_deriv_script.m)
 3. [`num_diff_first_deriv_function.m`](week_07/num_diff_first_deriv_function.m)
-4. [`num_diff_first_deriv_results.m`](week_07/num_diff_first_deriv_results.m)
-5. [`num_diff_first_deriv_results_notebook.mlx`](week_07/num_diff_first_deriv_results_notebook.mlx)
+4. [`num_diff_first_deriv_results_notebook.mlx`](week_07/num_diff_first_deriv_results_notebook.mlx)
+5. [`num_diff_first_deriv_results.m`](week_07/num_diff_first_deriv_results.m)
 
 ### problem 2 - experiment with different step sizes
 
