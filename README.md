@@ -34,13 +34,13 @@
 # recommended workflow
 
 ```text
-Notebook (.mlx)
+Live Script (.mlx) [Notebook]
     ↓
 Script (.m)
     ↓
 Function (.m)
     ↓
-Notebook (.mlx) using function
+Live Script (.mlx) [Notebook] using function
     ↓
 Script (.m) for batch calculations
 ```
