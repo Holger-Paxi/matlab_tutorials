@@ -198,3 +198,32 @@ Script (.m) for batch calculations
 4. [`normal_dist_mult_limits_script.m`](week_08/normal_dist_mult_limits_script.m)
 5. [`normal_dist_mult_entries_notebook.mlx`](week_08/normal_dist_mult_entries_notebook.mlx)
 6. [`normal_dist_mult_entries_script.m`](week_08/normal_dist_mult_entries_script.m)
+
+---
+
+# Week 09 - Tutorial
+
+## suggested order of execution
+
+### problem 1 - root finding using the bisection method and Newton's method
+
+#### task 1
+
+1. [`bisection_method_notebook.mlx`](week_09/bisection_method_notebook.mlx)
+2. [`bisection_method_script.m`](week_09/bisection_method_script.m)
+3. [`bisection_method_function.m`](week_09/bisection_method_function.m)
+4. [`bisection_application_notebook.mlx`](week_09/bisection_application_notebook.mlx)
+5. [`bisection_application_script.m`](week_09/bisection_application_script.m)
+
+#### task 2
+
+1. [`newton_method_notebook.mlx`](week_09/newton_method_notebook.mlx)
+2. [`newton_method_script.m`](week_09/newton_method_script.m)
+3. [`newton_method_function.m`](week_09/newton_method_function.m)
+4. [`newton_application_notebook.mlx`](week_09/newton_application_notebook.mlx)
+5. [`newton_application_script.m`](week_09/newton_application_script.m)
+
+### problem 2 - finding the growth rate from a population growth equation
+
+1. [`growth_rate_notebook.mlx`](week_09/growth_rate_notebook.mlx)
+2. [`growth_rate_script.m`](week_09/growth_rate_script.m)
