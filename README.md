@@ -49,21 +49,19 @@ Script (.m) for batch calculations
 
 # Week 06 - Tutorial:
 
-## suggested order of execution
-
-### introduction
+## introduction
 
 1. [`first_notebook.mlx`](week_06/first_notebook.mlx)
 2. [`first_script.m`](week_06/first_script.m)
 
-### exercise A&B - if statements
+## exercise A&B - if statements
 
 1. [`if_statement_exercise_A_notebook.mlx`](week_06/if_statement_exercise_A_notebook.mlx)
 2. [`if_statement_exercise_A.m`](week_06/if_statement_exercise_A.m)
 3. [`if_statement_exercise_B_notebook.mlx`](week_06/if_statement_exercise_B_notebook.mlx)
 4. [`if_statement_exercise_B.m`](week_06/if_statement_exercise_B.m)
 
-### exercise A&B - for loops
+## exercise A&B - for loops
 
 1. [`for_loop_exercise_A_ver_1_notebook.mlx`](week_06/for_loop_exercise_A_ver_1_notebook.mlx)
 2. [`for_loop_exercise_A_ver_1.m`](week_06/for_loop_exercise_A_ver_1.m)
@@ -71,22 +69,22 @@ Script (.m) for batch calculations
 4. [`for_loop_exercise_A_ver_2.m`](week_06/for_loop_exercise_A_ver_2.m)
 5. [`for_loop_exercise_B.m`](week_06/for_loop_exercise_B.m)
 
-### problem 1 - trigonometry of non-right-angled triangles
+## problem 1 - trigonometry of non-right-angled triangles
 
 1. [`find_length_notebook.mlx`](week_06/find_length_notebook.mlx)
 2. [`find_length_script.m`](week_06/find_length_script.m)
 3. [`find_length_function.m`](week_06/find_length_function.m)
 4. [`find_length_function_version_2.m`](week_06/find_length_function_version_2.m)
 
-### problem 2 - finding roots of a polynomial function
+## problem 2 - finding roots of a polynomial function
 
 1. [`polynomial_roots_notebook.mlx`](week_06/polynomial_roots_notebook.mlx)
 2. [`polynomial_roots_script.m`](week_06/polynomial_roots_script.m)
 3. [`polynomial_roots_function.m`](week_06/polynomial_roots_function.m)
 
-### problem 3 - writing for loops in MATLAB
+## problem 3 - writing for loops in MATLAB
 
-#### task 1&2
+### task 1&2
 
 1. [`simple_sum_series_notebook.mlx`](week_06/simple_sum_series_notebook.mlx)
 2. [`simple_sum_series_script.m`](week_06/simple_sum_series_script.m)
@@ -94,7 +92,7 @@ Script (.m) for batch calculations
 4. [`simple_sum_series_script_version_2.m`](week_06/simple_sum_series_script_version_2.m)
 5. [`simple_sum_series_function_version_2.m`](week_06/simple_sum_series_function_version_2.m)
 
-#### task 3&4
+### task 3&4
 
 1. [`complex_sum_series_ntebook.mlx`](week_06/complex_sum_series_ntebook.mlx)
 2. [`complex_sum_series_script.m`](week_06/complex_sum_series_script.m)
@@ -104,9 +102,7 @@ Script (.m) for batch calculations
 
 # Week 07 - Tutorial:
 
-## suggested order of execution
-
-### additional exercises for trapezoidal and simpson methods
+## additional exercises for trapezoidal and simpson methods
 
 1. [`trapezoidal_n_divisions_notebook.mlx`](week_07/trapezoidal_n_divisions_notebook.mlx)
 2. [`trapezoidal_n_divisions_script.m`](week_07/trapezoidal_n_divisions_script.m)
@@ -122,7 +118,7 @@ Script (.m) for batch calculations
 12. [`integration_comparison_notebook_v2.mlx`](week_07/integration_comparison_notebook_v2.mlx)
 13. [`integration_comparison_v2.m`](week_07/integration_comparison_v2.m)
 
-### problem 1 - numerical differentiation for first derivatives
+## problem 1 - numerical differentiation for first derivatives
 
 1. [`num_diff_first_deriv_notebook.mlx`](week_07/num_diff_first_deriv_notebook.mlx)
 2. [`num_diff_first_deriv_script.m`](week_07/num_diff_first_deriv_script.m)
@@ -130,7 +126,7 @@ Script (.m) for batch calculations
 4. [`num_diff_first_deriv_results_notebook.mlx`](week_07/num_diff_first_deriv_results_notebook.mlx)
 5. [`num_diff_first_deriv_results.m`](week_07/num_diff_first_deriv_results.m)
 
-### problem 2 - experiment with different step sizes
+## problem 2 - experiment with different step sizes
 
 1. [`diff_step_size_notebook.mlx`](week_07/diff_step_size_notebook.mlx)
 2. [`diff_step_size_script.m`](week_07/diff_step_size_script.m)
@@ -138,7 +134,7 @@ Script (.m) for batch calculations
 4. [`diff_step_size_results_notebook.mlx`](week_07/diff_step_size_results_notebook.mlx)
 5. [`diff_step_size_results.m`](week_07/diff_step_size_results.m)
 
-### problem 3 - numerical differentiation for second derivatives
+## problem 3 - numerical differentiation for second derivatives
 
 1. [`num_diff_second_deriv_notebook.mlx`](week_07/num_diff_second_deriv_notebook.mlx)
 2. [`num_diff_second_deriv_script.m`](week_07/num_diff_second_deriv_script.m)
@@ -150,9 +146,7 @@ Script (.m) for batch calculations
 
 # Week 08 - Tutorial:
 
-## suggested order of execution
-
-### additional exercises for trapezoidal and simpson methods
+## additional exercises for trapezoidal and simpson methods
 
 1. [`trapezoidal_rule_notebook.mlx`](week_08/trapezoidal_rule_notebook.mlx)
 2. [`trapezoidal_rule_script.m`](week_08/trapezoidal_rule_script.m)
@@ -170,9 +164,9 @@ Script (.m) for batch calculations
 14. [`simpson_rule_script_v2.m`](week_08/simpson_rule_script_v2.m)
 15. [`simpson_rule_function_v2.m`](week_08/simpson_rule_function_v2.m)
 
-### problem 1 - numerical integration using the composite Trapezoidal and Simpson's rule
+## problem 1 - numerical integration using the composite Trapezoidal and Simpson's rule
 
-#### task 1
+### task 1
 
 1. [`composite_trapezoidal_notebook.mlx`](week_08/composite_trapezoidal_notebook.mlx)
 2. [`composite_trapezoidal_script.m`](week_08/composite_trapezoidal_script.m)
@@ -180,7 +174,7 @@ Script (.m) for batch calculations
 4. [`compute_trap_mult_dx_notebook.mlx`](week_08/compute_trap_mult_dx_notebook.mlx)
 5. [`compute_trap_mult_dx_script.m`](week_08/compute_trap_mult_dx_script.m)
 
-#### task 2
+### task 2
 
 1. [`composite_simpson_notebook.mlx`](week_08/composite_simpson_notebook.mlx)
 2. [`composite_simpson_script.m`](week_08/composite_simpson_script.m)
@@ -190,7 +184,7 @@ Script (.m) for batch calculations
 6. [`comparison_simp_trap_mult_dx_notebook.mlx`](week_08/comparison_simp_trap_mult_dx_notebook.mlx)
 7. [`comparison_simp_trap_mult_dx_script.m`](week_08/comparison_simp_trap_mult_dx_script.m)
 
-### problem 2 - normal distribution calculations
+## problem 2 - normal distribution calculations
 
 1. [`normal_dist_single_entry_notebook.mlx`](week_08/normal_dist_single_entry_notebook.mlx)
 2. [`normal_dist_single_entry_script.m`](week_08/normal_dist_single_entry_script.m)
@@ -203,11 +197,9 @@ Script (.m) for batch calculations
 
 # Week 09 - Tutorial
 
-## suggested order of execution
+## problem 1 - root finding using the bisection method and Newton's method
 
-### problem 1 - root finding using the bisection method and Newton's method
-
-#### task 1
+### task 1
 
 1. [`bisection_method_notebook.mlx`](week_09/bisection_method_notebook.mlx)
 2. [`bisection_method_script.m`](week_09/bisection_method_script.m)
@@ -215,7 +207,7 @@ Script (.m) for batch calculations
 4. [`bisection_application_notebook.mlx`](week_09/bisection_application_notebook.mlx)
 5. [`bisection_application_script.m`](week_09/bisection_application_script.m)
 
-#### task 2
+### task 2
 
 1. [`newton_method_notebook.mlx`](week_09/newton_method_notebook.mlx)
 2. [`newton_method_script.m`](week_09/newton_method_script.m)
@@ -223,7 +215,13 @@ Script (.m) for batch calculations
 4. [`newton_application_notebook.mlx`](week_09/newton_application_notebook.mlx)
 5. [`newton_application_script.m`](week_09/newton_application_script.m)
 
-### problem 2 - finding the growth rate from a population growth equation
+## problem 2 - finding the growth rate from a population growth equation
 
 1. [`growth_rate_notebook.mlx`](week_09/growth_rate_notebook.mlx)
 2. [`growth_rate_script.m`](week_09/growth_rate_script.m)
+
+## practice questions
+
+1. [`practice_questions_notebook.mlx`](week_09/practice_questions_notebook.mlx)
+2. [`practice_questions_script.m`](week_09/practice_questions_script.m)
+
