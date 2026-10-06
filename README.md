@@ -225,3 +225,9 @@ Script (.m) for batch calculations
 1. [`practice_questions_notebook.mlx`](week_09/practice_questions_notebook.mlx)
 2. [`practice_questions_script.m`](week_09/practice_questions_script.m)
 
+# Week 10 - Tutorial
+
+## quiz revision
+
+1. [`quiz_notebook.mlx`](week_10/quiz_notebook.mlx)
+2. [`quiz_script.m`](week_10/quiz_script.m)
