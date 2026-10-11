@@ -231,3 +231,152 @@ Script (.m) for batch calculations
 
 1. [`quiz_notebook.mlx`](week_10/quiz_notebook.mlx)
 2. [`quiz_script.m`](week_10/quiz_script.m)
+
+## ODE practice
+
+### general recipe
+
+Suppose you have an $n^\text{th}$ -order ODE
+
+$$y^{(n)} = f\left(t,y,y',y'',\ldots,y^{(n-1)}\right)$$
+
+Define new state variables:
+
+```text
+x1 = y
+x2 = y'
+x3 = y''
+...
+xn = y^(n-1)
+```
+
+Then:
+
+```text
+dx1/dt = x2
+dx2/dt = x3
+...
+dx(n-1)/dt = xn
+
+dxn/dt = f(t,x1,x2,...,xn)
+```
+
+Use the vector
+
+```text
+X = [
+    x1
+    x2
+    ...
+    xn
+]
+```
+
+as the state vector for ode45.
+
+### Example: 2nd-order ODE
+
+$$y'' + 3y' + 2y = 0$$
+
+Define
+
+```text
+x1 = y
+x2 = y'
+```
+
+Then
+
+```text
+dx1/dt = x2
+dx2/dt = -3*x2 - 2*x1
+```
+
+MATLAB:
+
+```matlab
+function dXdt = myODE(t,X)
+
+    x1 = X(1); % y
+    x2 = X(2); % y'
+
+    dXdt = [...
+        x2;
+        -3*x2 - 2*x1...
+    ];
+
+end
+```
+
+and
+
+```matlab
+[t,X] = ode45(@myODE,[0 10],[1;0]);
+ 
+y = X(:,1);
+yp = X(:,2);
+```
+
+### Example: 3rd-order ODE
+
+$$y''' + 2y'' - y' + y = 0$$
+
+Define
+
+```text
+x1 = y
+x2 = y'
+x3 = y''
+```
+
+Then
+
+```text
+dx1/dt = x2
+dx2/dt = x3
+dx3/dt = -2*x3 + x2 - x1
+```
+
+MATLAB:
+
+```matlab
+function dXdt = myODE(t,X)
+
+    x1 = X(1);
+    x2 = X(2);
+    x3 = X(3);
+
+    dXdt = [...
+        x2;
+        x3;
+        -2*x3 + x2 - x1...
+    ];
+
+end
+```
+
+A handy template for any order is:
+
+```matlab
+function dXdt = myODE(t,X)
+
+    x1 = X(1); % y
+    x2 = X(2); % y'
+    x3 = X(3); % y''
+    ...
+    xn = X(n); % y^(n-1)
+
+    dXdt = zeros(n,1);
+
+    dXdt(1) = x2;
+    dXdt(2) = x3;
+    ...
+    dXdt(n-1) = xn;
+
+    dXdt(n) = ...; % expression for highest derivative
+
+end
+```
+
+This is essentially the "pseudocode" MATLAB texts use to convert any 
+higher-order ODE into the first-order system required by ode45.
