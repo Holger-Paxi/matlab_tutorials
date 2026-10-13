@@ -232,6 +232,11 @@ Script (.m) for batch calculations
 1. [`quiz_notebook.mlx`](week_10/quiz_notebook.mlx)
 2. [`quiz_script.m`](week_10/quiz_script.m)
 
+## ODE45 free fall
+
+1. [`free_fall_notebook.mlx`](week_10/free_fall_notebook.mlx)
+2. [`free_fall_script.m`](week_10/free_fall_script.m)
+
 ## ODE practice
 
 ### general recipe
@@ -381,6 +386,8 @@ end
 This is essentially the "pseudocode" MATLAB texts use to convert any 
 higher-order ODE into the first-order system required by ode45.
 
-## ODE45 free fall
+# week 11 - Tutorial
 
+1. [`runge_kutta_app.mlapp`](week_11/runge_kutta_app.mlapp)
+2. [`runge_kutta_script.m`](week_11/runge_kutta_script.m)
 
