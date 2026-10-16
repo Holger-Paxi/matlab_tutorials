@@ -388,6 +388,9 @@ higher-order ODE into the first-order system required by ode45.
 
 # week 11 - Tutorial
 
-1. [`runge_kutta_app.mlapp`](week_11/runge_kutta_app.mlapp)
-2. [`runge_kutta_script.m`](week_11/runge_kutta_script.m)
+1. [`newton_raphson_app_1.mlapp`](week_11/newton_raphson_app_1.mlapp)
+2. [`newton_raphson_script_1.m`](week_11/newton_raphson_script_1.m)
+3. [`newton_raphson_function.m`](week_11/newton_raphson_function.m)
+4. [`newton_raphson_app_2.mlapp`](week_11/newton_raphson_app_2.mlapp)
+5. [`newton_raphson_script_2.m`](week_11/newton_raphson_script_2.m)
 
