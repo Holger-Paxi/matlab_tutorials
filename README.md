@@ -398,7 +398,8 @@ higher-order ODE into the first-order system required by ode45.
 
 1. [`newton_raphson_function.py`](week_12/newton_raphson_function.py)
 2. [`using_newton_raphson_notebook.ipynb`](week_12/using_newton_raphson_notebook.ipynb)
-3. [`using_newton_raphson_script.py`](week_12/using_newton_raphson_script.py)
-4. [`newton_raphson_app_1.py`](week_12/newton_raphson_app_1.py)
-5. [`newton_raphson_app_2.py`](week_12/newton_raphson_app_2.py)
+3. [`using_newton_raphson_script_v1.py`](week_12/using_newton_raphson_script_v1.py)
+4. [`using_newton_raphson_script_v2.py`](week_12/using_newton_raphson_script_v2.py)
+5. [`newton_raphson_app_1.py`](week_12/newton_raphson_app_1.py)
+6. [`newton_raphson_app_2.py`](week_12/newton_raphson_app_2.py)
 
