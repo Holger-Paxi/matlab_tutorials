@@ -1,3 +1,5 @@
 week_07_old/
 *.zip
 *.xml
+__pycache__/
+.ipynb_checkpoints/
